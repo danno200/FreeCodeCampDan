@@ -1,4 +1,7 @@
 
+//Returning the remaining elements of an array after chopping off n elements from the head.
+
+
 function chunkArrayInGroups(arr, size) {
  var temp = [];
   var result = [];
