@@ -1,0 +1,18 @@
+//Removes all elements from the initial array that are of the same value as these arguments.
+
+function destroyer(arr) {
+  // Remove all the values
+  var arg1 = arguments[1];
+  var arg2 = arguments[2];
+  var arg3 = arguments[3];
+  var arry = arr;
+  
+  var final = arry.filter(function(val){
+    
+    return val != arg1 && val != arg2 && val != arg3;
+  });
+
+  return final;
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
